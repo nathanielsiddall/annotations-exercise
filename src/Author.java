@@ -7,7 +7,7 @@ import java.util.List;
 public class Author extends Person {
     private List books;
 
-    public Author(String firstName, String lastName) {
+    Author(String firstName, String lastName) {
         super(firstName, lastName);
         books = new ArrayList();
     }
